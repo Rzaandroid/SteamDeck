@@ -114,7 +114,7 @@ try
 			m = "M"+x+":"+y;
 			dos.writeUTF("MX"+x);
 			dos.writeUTF("MY"+y);
-			System.out.println(m);
+			//System.out.println(m);
 			Thread.sleep(5);
 	}
 	catch(Exception ex)
@@ -131,7 +131,7 @@ public void mouseMoved(MouseEvent e)
 			m = "M"+x+":"+y;
 			dos.writeUTF("MX"+x);
 			dos.writeUTF("MY"+y);
-			System.out.println(m);
+			//System.out.println(m);
 			Thread.sleep(5);
 	}
 	catch(Exception ex)

@@ -28,19 +28,19 @@ import javax.swing.text.*;
    	public DeckSvr() throws Exception
 	{
 		robot = new Robot();   
-  		JFrame jframe = new JFrame();
-  		tp = new JTextPane();
-  		tp.setText("");
-  		jframe.add(tp);
-  		jframe.addWindowListener(this);
-  		jframe.setSize(400, 350);
-  		jframe.setVisible(true);
+  		//JFrame jframe = new JFrame();
+  		//tp = new JTextPane();
+  		//tp.setText("");
+  		//jframe.add(tp);
+  		//jframe.addWindowListener(this);
+  		//jframe.setSize(400, 350);
+  		//jframe.setVisible(true);
 		startSvr();
 		k = 0;
 		while(true)
 		{
 			read = dis.readUTF();
-			System.out.println(read);
+			//System.out.println(read);
 			
 			if(read.startsWith("MX"))
 			{

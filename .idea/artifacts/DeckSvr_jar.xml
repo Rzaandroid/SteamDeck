@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="DeckSvr:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DeckSvr_jar</output-path>
+    <root id="archive" name="DeckSvr.jar">
+      <element id="module-output" name="SteamDeck" />
+    </root>
+  </artifact>
+</component>
