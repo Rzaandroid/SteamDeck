@@ -41,7 +41,7 @@ try
 catch(Exception ex){}
          }          
       });
-      /*
+
   		textField.addKeyListener(this);
   		textField.addMouseListener(this);
   		textField.addMouseMotionListener(this);
@@ -55,7 +55,7 @@ but.setVisible(true);
 jframe.setLayout(new GridLayout(3, 1));
 jframe.pack();
   		jframe.setVisible(true);
-  		*/
+
   		
   		  		textField.addKeyListener(this);
   		textField.addMouseListener(this);
@@ -66,7 +66,6 @@ jframe.pack();
   		BorderLayout layout = new BorderLayout();
   		layout.setHgap(10);
       layout.setVgap(10);
-  		JFrame jframe = new JFrame();
   		jframe.setLayout(layout);
   		jframe.add(textField,BorderLayout.CENTER);
   		jframe.addWindowListener(this);
